@@ -1,0 +1,50 @@
+1. Búsqueda Voraz (Greedy Search)
+
+    Aplicación: La búsqueda voraz se utiliza en problemas de optimización, donde el objetivo es encontrar una solución que satisfaga ciertos criterios de optimización.
+
+    Teoría: La búsqueda voraz elige la siguiente acción basándose en una heurística que evalúa qué tan prometedora es la acción en términos de alcanzar el objetivo. No garantiza la solución óptima, pero a menudo es eficiente en términos de tiempo de ejecución.
+
+2. Algoritmo A (A-Star)*
+
+    Aplicación: A* es ampliamente utilizado en la búsqueda de rutas y navegación, así como en problemas de optimización en los que se busca una solución de costo mínimo.
+
+    Teoría: A* combina la búsqueda por amplitud y la búsqueda voraz. Utiliza una función de costo que combina el costo acumulado hasta el momento y una heurística que estima el costo restante para alcanzar el objetivo. A* garantiza encontrar la solución óptima si la heurística es admisible y consistente.
+
+3. Búsqueda en Ascenso de Colinas (Hill Climbing)
+
+    Aplicación: La búsqueda en ascenso de colinas se utiliza en problemas de optimización local, donde el objetivo es encontrar el máximo o mínimo local de una función.
+
+    Teoría: La búsqueda en ascenso de colinas comienza desde un punto inicial y se mueve en la dirección que maximiza o minimiza la función objetivo. Puede quedarse atascada en máximos o mínimos locales y no garantiza la solución global óptima.
+
+4. Algoritmos Genéticos (Genetic Algorithms)
+
+    Aplicación: Los algoritmos genéticos se utilizan en problemas de optimización y búsqueda en espacios de solución complejos, como la evolución y la optimización de sistemas.
+
+    Teoría: Los algoritmos genéticos se inspiran en la evolución biológica. Utilizan una población de soluciones candidatas, aplican operadores genéticos (selección, cruza, mutación) y evalúan la aptitud de las soluciones para evolucionar hacia soluciones óptimas.
+
+5. Búsqueda Tabú (Tabu Search)
+
+    Aplicación: La búsqueda tabú se utiliza en problemas de optimización combinatoria, como la programación de horarios y el enrutamiento de vehículos.
+
+    Teoría: La búsqueda tabú mantiene una lista de movimientos "tabú" para evitar ciclos y se enfoca en explorar nuevas soluciones. Puede escapar de óptimos locales y encontrar soluciones de alta calidad.
+
+6. Temple Simulado (Simulated Annealing)
+
+    Aplicación: El temple simulado se utiliza en problemas de optimización combinatoria y en la búsqueda de soluciones en entornos ruidosos.
+
+    Teoría: El temple simulado se basa en el enfriamiento gradual, donde se aceptan movimientos subóptimos con una probabilidad decreciente. Esto permite explorar soluciones fuera del óptimo local.
+
+7. Búsqueda Local (Local Search)
+
+    Aplicación: La búsqueda local se utiliza en problemas de optimización donde se busca una solución de calidad en un espacio de solución limitado.
+
+    Teoría: La búsqueda local comienza desde un punto y explora el vecindario para encontrar una solución mejor. Puede quedar atrapada en óptimos locales y no garantiza la solución global óptima.
+
+8. Heurísticas
+
+    Aplicación: Las heurísticas son funciones que proporcionan estimaciones informadas sobre la calidad de las soluciones. Se utilizan en algoritmos de búsqueda informada para guiar la exploración hacia el objetivo.
+
+    Teoría: Las heurísticas son críticas en algoritmos como A*, donde se combinan con la función de costo para tomar decisiones inteligentes sobre qué camino seguir. Las heurísticas deben ser admisibles (nunca sobreestiman el costo) y, preferiblemente, consistentes (cumplen la desigualdad triangular).
+    
+
+Cada uno de estos enfoques tiene sus propias aplicaciones y ventajas. La elección del algoritmo depende del problema específico que estés abordando y de tus requisitos de rendimiento. Además, es importante ajustar los parámetros y las estrategias de búsqueda para optimizar los resultados en situaciones reales.
